@@ -1,0 +1,54 @@
+Describing_Ui :
+ 1.YourFirstComponent{
+* Iam Create a Directory file and Create a jsx file to create a class Component and
+create js file For function related component.
+* am Just Call The component in the App.js File as a Component .
+}
+2.ImportingAndExportTheComponents{
+ * Iam import the components from one page to another Page and  export the components in the same page
+ default, I will call the components whatever pages I want easily .
+ * there are Two types to export the components in function export default with the function name and export
+ the function what ever we want in the last line we just include the export default and the function or class name ;
+ * root Component file   named as App.js
+}
+
+3.JavaScriptInJsxWithCurlyBraces{
+
+* When We Call a  any Attributes in the html substance contains as String Type , but in this topic well we define
+ a values as css or any  in the javaScript Variables  whith the help of {}.
+  it is the easiest way and special way  to embeded a values easily in javaScript .
+ * it was using only two ways  as a text and as Attributes .
+}
+ 4.PassingPropsToAComponent{
+ * By using the props => properties in the jsx file it would be able to share the one parent Component variables to the
+  child with the help of props .
+  * we  create a constructor and pass some objects and values throught the render list this.state.values, but in the child
+  components we share like given some variables to the objects  and then import the parent to the child and child to the parent class
+  and just called the child class as this.props.variableName => we defined.
+ }
+
+5.ConditionalRendering{
+  * we Need to display the Components as using Condition in the rendering formate(formates => if statement, && and terinory operator)
+  * in the if statement we should return  if we mention else we should put twice times return. and the statement was
+  start after the render condition .
+
+}
+6.RenderingList{
+ * By using the Map it would  be able to get the values through the index values statement .
+ * by using filter it would be able to filter the values and get the key when  using the key !.
+ * using the key would be able to choose the items as orderly in the list of statements.
+}
+
+7.KeepingComponentsPure{
+ * Pure component was perfom  only for calculation .
+ * a pure function we defined means it will mind own buissness and same input as same input related output.
+ * react was assumed as every component write a pure function.
+ *  disAdvantage when we put the function as inpure by the components variables .
+}
+
+8.UiAsTree{
+  * Tree Based ui means ui is nothing but Component as mean the ui where the function based was ui has engagged to the
+   another component UI.
+  * we  create a tree branches mention as ui and components.
+  *  it is easily to find the debug and clarify the functions .
+}

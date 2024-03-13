@@ -1,0 +1,42 @@
+1.responding To Event{
+    * In this Topic we just learn about the how to handle the event and how to add the event Handler.
+    * event handler was handle  own function to trigger the interaction while clicking , showing and function based works .
+    * passing the function is the correct action .  call function is incorrect action.
+    * () => this case would be used for the rendering the action immideatly.
+    * naming EventHadler Props was always start with on  and its was start with capital letter .
+    * naming Event handler can easily customize the name freely .
+    * event Propagate was  catch the perticular or more event Wor with the help of divison tag .
+    * stoping Propagate was used for stop the event object with the help of this key word it was also known as prevent the event bubbling further.
+    * if using propagate to the perticular event it was called as capture phase event.
+}
+    2.State A Component Memory{
+        * In this topic we just learn about how to change the form  include the perticular action with the help of useState
+         ,how to update  the form and input fields and how to use useState in the reactjs.
+         * using of use state hook provide two things retain the data => state variable,state setter function =>
+          update the variable and triger the react component again.
+          * In any other function word contains use means it will be known as hooks .
+          * state is isolated and private it would not affect the same as otherComponents.
+    }
+    3.Render and Commit {
+     * Two reason for component was render(initial render and state has been updated) .
+     * createRoot was using for target the DOM Node(Nothing the HTML elements like tags <p>,<a>).
+     * React will called as a root component as index.js.
+    }
+    4.SateAsSnapShort{
+    *  State variables are we could read and wirte as javaScript Variables and How to re - render with the help of state
+    Variables.
+    * if we had to update the state by the varibles set in the state variables => state first thing !.
+    * it was took as a previous values and set as the render the value again and agin as called re - render.
+    }
+   5.QueueingASeriesOfStateUpdates{
+   *In this case We learn about how the  batches state was Updates .
+   * we make a queue for the same state variables at the same time like we retrive a variable to map method as (a => a+1);
+   * that function is called as updater function and it is used to update a function multiple time on one event .
+   * An update function  added to the queue and it is must be pure only return the result .
+   }
+   6.UpdateTheObjectInState{
+   * We can change the state object with the help of mutation Method and then in this method we could change the object vaule possible .
+   * state is technically mutable but the state had been modified what we want to prefer.
+
+   }
+   
