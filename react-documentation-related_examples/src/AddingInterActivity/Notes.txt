@@ -37,6 +37,11 @@
    6.UpdateTheObjectInState{
    * We can change the state object with the help of mutation Method and then in this method we could change the object vaule possible .
    * state is technically mutable but the state had been modified what we want to prefer.
-
+   * if the state object was include already a nested object and i would be called by the object oriented of state.
+   }
+   6.UpdateArrayInState{
+    * javaScript arrya also a mutable but in this topic we should try to make immutable for the state .
+    * In this case we include some new keyWords for immutable array split syntax[...arrayName], slice,filter,map.
+    * 
    }
    
