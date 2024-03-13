@@ -6,6 +6,7 @@ export default function UpdateObjectInState() {
     homeDetails: {
       motherName: "Amudha",
       phoneNumber: 6381162830,
+      address: "Kozhikode",
     },
   });
 
