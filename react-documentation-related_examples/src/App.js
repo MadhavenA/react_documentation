@@ -17,12 +17,15 @@ import RenderAndCommit from "./AddingInterActivity/RenderAndCommit/RenderAndComm
 import StateAsASnapShort from "./AddingInterActivity/StateAsASnapShort/StateAsASnapShort";
 import QueueingASeriesOfStateUpdates from "./AddingInterActivity/QueueingASeriesOfStateUpdates/QueueingASeriesOfStateUpdates";
 import UpdateObjectInState from "./AddingInterActivity/UpdateObjectInState/UpdateObjectInState";
+import UpdateTheObjectByUsingState from "./AddingInterActivity/UpdatingArrayInState/UpdateTheObjectByUsingState";
+import UsingImmerAddingListOfFruits from "./AddingInterActivity/UpdatingArrayInState/UsingImmerAddingListOfFruits";
+import ArrayInClassComponent from "./AddingInterActivity/UpdatingArrayInState/ArrayInClassComponent";
 
 function App() {
   return (
     <>
       <div className="App">
-        <UpdateObjectInState />
+        <ArrayInClassComponent />
       </div>
     </>
   );
