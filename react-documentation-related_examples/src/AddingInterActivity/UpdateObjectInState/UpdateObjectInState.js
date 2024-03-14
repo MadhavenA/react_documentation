@@ -4,7 +4,7 @@ export default function UpdateObjectInState() {
   const [personName, setName] = useState(false);
   const [personDetails, setPersonDetails] = useState({
     homeDetails: {
-      motherName: "Amudha",
+      motherName: "mother",
       phoneNumber: 6381162830,
     },
   });
