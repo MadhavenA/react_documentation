@@ -20,12 +20,12 @@ import UpdateObjectInState from "./AddingInterActivity/UpdateObjectInState/Updat
 import UpdateTheObjectByUsingState from "./AddingInterActivity/UpdatingArrayInState/UpdateTheObjectByUsingState";
 import UsingImmerAddingListOfFruits from "./AddingInterActivity/UpdatingArrayInState/UsingImmerAddingListOfFruits";
 import ArrayInClassComponent from "./AddingInterActivity/UpdatingArrayInState/ArrayInClassComponent";
-
+import ReactingWithInputState from "./ManagingState/ReactingWithInputState/ReactingWithInputState";
 function App() {
   return (
     <>
       <div className="App">
-        <ArrayInClassComponent />
+        <ReactingWithInputState />
       </div>
     </>
   );
