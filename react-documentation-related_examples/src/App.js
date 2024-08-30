@@ -21,7 +21,7 @@ import UpdateTheObjectByUsingState from "./AddingInterActivity/UpdatingArrayInSt
 import UsingImmerAddingListOfFruits from "./AddingInterActivity/UpdatingArrayInState/UsingImmerAddingListOfFruits";
 import ArrayInClassComponent from "./AddingInterActivity/UpdatingArrayInState/ArrayInClassComponent";
 import ReactingWithInputState from "./ManagingState/ReactingWithInputState/ReactingWithInputState";
-import ChoosingTheStateStructure from "./ManagingState/ReactingWithInputState/ChoosingTheStateStructure/ChoosingTheStateStructure";
+import ChoosingTheStateStructure from "./ManagingState/ChoosingTheStateStructure/ChoosingTheStateStructure";
 function App() {
   return (
     <>
